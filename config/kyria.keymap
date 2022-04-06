@@ -53,6 +53,7 @@
 	&kp DE_Q   &kp DE_Y &kp DE_X &kp DE_C &kp DE_V &kp DE_B &kp DE_Q &kp DE_Q       	 &kp DE_Q  &kp DE_Q &kp DE_N &kp DE_M  &kp DE_COMMA &kp DE_DOT &kp DE_MINS &kp DE_Q
 	        			         &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q      		 &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q
 			>;
+			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
 		};
 
@@ -65,6 +66,7 @@
 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
+			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
 
 		};
@@ -77,6 +79,7 @@
 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
+			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
 
 		};
@@ -89,6 +92,7 @@
 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
+			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
 
 		};
