@@ -13,9 +13,9 @@
 #include "german-keymap.h"
 
 #define BASE  0
-#define NUM 1
-#define SYM 2
-#define PGM 3
+#define ZAHLEN 1
+#define ZEICHEN 2
+#define PROGRAME 3
 
 /*&mt {
     retro-tap;
@@ -57,7 +57,7 @@
 
 		};
 
-		NUM_layer {
+		ZAHLEN_layer {
 			label = "NUMBERS";
 
 			bindings = <
@@ -71,7 +71,7 @@
 
 		};
 		
-		SYM_layer {
+		ZEICHEN_layer {
 			label = "SYMBOLS";
 			bindings = <
 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
@@ -84,7 +84,7 @@
 
 		};
 
-		PGM_layer {
+		PROGRAME_layer {
 			label = "PROGRAMS";
 			bindings = <
 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
