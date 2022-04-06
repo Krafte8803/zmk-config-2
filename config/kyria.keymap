@@ -83,6 +83,19 @@
 			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 
 		};
+
+		PGM_layer {
+			label = "PROGRAMS";
+			bindings = <
+	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 											  &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+			>;
+
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
+
+		};
 	};
 };
 
