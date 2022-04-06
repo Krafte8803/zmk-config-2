@@ -49,7 +49,7 @@
 
 			bindings = <
 	&mt LCTRL ESC   &kp DE_Q &kp DE_W &kp DE_E &kp DE_R &kp DE_T                                                 &kp DE_Z &kp DE_U  &kp DE_I     &kp DE_O   &kp DE_P    &mt LALT MINUS
-	&lt NUM TAB  	&kp DE_A &kp DE_S &kp DE_D &kp DE_F &kp DE_G                                                 &kp DE_H &kp DE_J  &kp DE_K     &kp DE_L   &kp DE_OE &lt RAISE SQT
+	&lt NUM TAB  	&kp DE_A &kp DE_S &kp DE_D &kp DE_F &kp DE_G                                                 &kp DE_H &kp DE_J  &kp DE_K     &kp DE_L   &kp DE_OE &lt SYM SQT
 	&kp LSHFT 		&kp DE_Y &kp DE_X &kp DE_C &kp DE_V &kp DE_B &mo SYM &kp LGUI        &kp PSCRN  &mo NUM  &kp DE_N &kp DE_M  &kp DE_COMMA &kp DE_DOT &kp DE_MINS &mthp RSHFT ENTER
 	        	         &kp LGUI &kp LCTRL &kp LALT &kp BSPC &kp DEL       &kp ENTER  &kp SPACE  &kp RALT &kp RCTRL &kp RALT
 			>;
