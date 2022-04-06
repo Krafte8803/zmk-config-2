@@ -54,7 +54,6 @@
 	        			         &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q      		 &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q
 			>;
 
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		NUM_layer {
@@ -67,7 +66,6 @@
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
 
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 
 		};
 		
@@ -80,7 +78,6 @@
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
 
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 
 		};
 
@@ -93,7 +90,6 @@
 							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
 			>;
 
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
 
 		};
 	};
