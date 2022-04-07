@@ -74,10 +74,10 @@
 		ZEICHEN_layer {
 			label = "SYMBOLS";
 			bindings = <
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 											  &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+	&trans &trans &trans &trans &trans &trans 				 		  			  	  &trans &trans &trans &trans &trans &trans 
+	&trans &trans &trans &trans &trans &trans 						  			  	  &trans &trans &trans &trans &trans &trans 
+	&trans &trans &trans &trans &trans &trans &trans &trans 			&trans &trans &trans &trans &trans &trans &trans &trans  
+		 			     &trans &trans &trans &trans &trans 			&trans &trans &trans &trans &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
@@ -87,10 +87,10 @@
 		PROGRAME_layer {
 			label = "PROGRAMS";
 			bindings = <
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 											  &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+	&trans &trans &trans &trans &trans &trans 				 		  			  	  &trans &trans &trans &trans &trans &trans 
+	&trans &trans &trans &trans &trans &trans 						  			  	  &trans &trans &trans &trans &trans &trans 
+	&trans &trans &trans &trans &trans &trans &trans &trans 			&trans &trans &trans &trans &trans &trans &trans &trans  
+		 			     &trans &trans &trans &trans &trans 			&trans &trans &trans &trans &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
