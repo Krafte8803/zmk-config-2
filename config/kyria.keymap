@@ -61,10 +61,10 @@
 			label = "NUMBERS";
 
 			bindings = <
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 										 	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 											  &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-	&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q			&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
-							   &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 		&kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q &kp DE_Q 
+	&kp DE_LPRN &kp DE_ASTR &kp N7   &kp N8   &kp N9   &kp N0 										 	&trans &trans &kp UP_ARROW &trans &trans &trans
+	&kp DE_RPRN &kp DE_SLSH &kp N4   &kp N5   &kp N6   &kp DE_PLUS 										&trans &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans &trans
+	&trans 		&trans  	&kp N1	 &kp N2	  &kp N3   &kp DE_MINS &trans &trans		  &trans &trans &trans &trans &trans &trans &trans &trans 
+							   &trans &trans &trans &trans &trans 						  &trans &trans &trans &trans &trans 
 			>;
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
