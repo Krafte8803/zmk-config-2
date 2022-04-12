@@ -38,6 +38,13 @@
                         flavor = "hold-preferred";      
                         bindings = <&kp>, <&kp>;
         };
+		 td0: tap_dance_0 {
+           				compatible = "zmk,behavior-tap-dance";
+            			label = "TAP_DANCE_0";
+            			#binding-cells = <0>;
+            			tapping-term-ms = <200>;
+            			bindings = <&kp DE_DOT>, <&kp DE_COMM>, <&kp DE_COLN>;
+        };
     };
 
 
@@ -48,10 +55,10 @@
 			label = "BASE";
 
 			bindings = <
-	&mt ESC TAB &kp DE_Q &kp DE_W &kp DE_E &kp DE_R &kp DE_T                                                 		   &kp DE_Z &kp DE_U  &kp DE_I &kp DE_O &kp DE_P  &kp K_PASTE
+	&mt ESC TAB &mt DE_W_AT DE_Q &kp DE_W &kp DE_E &kp DE_R &kp DE_T                                                 		   &kp DE_Z &kp DE_U  &kp DE_I &kp DE_O &kp DE_P  &kp K_PASTE
 	&kp CAPS	&kp DE_A &kp DE_S &kp DE_D &kp DE_F &kp DE_G                                                 		   &kp DE_H &kp DE_J  &kp DE_K &kp DE_L &kp DE_OE &kp K_CUT
 	&kp LSHFT   &kp DE_Y &kp DE_X &kp DE_C &kp DE_V &kp DE_B &lt ZEICHEN DEL &lt PROGRAME BSPC  &to ZAHLEN  &to BASE &kp DE_N &kp DE_M  &kp DE_UE &kp DE_AE &kp DE_SS &kp RSHFT
-	        &mt LALT DE_COLN &mt DE_COMM LCTRL &kp DE_DOT &kp SPACE &kp ENTER      		 	    &kp ENTER &kp SPACE &kp DE_QUES &kp DE_EXLM &kp C_MENU
+	        &kp LALT &kp LCTRL &kp td0 &kp SPACE &kp ENTER      		 	    &kp ENTER &kp SPACE &kp DE_QUES &kp DE_EXLM &kp RGUI
 			>;
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
