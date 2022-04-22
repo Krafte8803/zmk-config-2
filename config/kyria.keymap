@@ -26,7 +26,7 @@
     flavor = "tap-preferred";
 };*/
 
- combos {
+/{ combos {
         compatible = "zmk,combos";
         combo_base {
             timeout-ms = <50>;
@@ -51,7 +51,7 @@
     };
 
 
-/ {
+
 	behaviors {
         mthp: hold_preferred_tap {
                         compatible = "zmk,behavior-hold-tap";
