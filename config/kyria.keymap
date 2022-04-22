@@ -40,7 +40,7 @@
         };
 		 combo_zeichen {
             timeout-ms = <50>;
-            key-positions = <10 11>
+            key-positions = <10 11>;
 			bindings = <&to ZEICHEN>;
         };
 		 combo_programme {
