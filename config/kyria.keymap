@@ -26,6 +26,29 @@
     flavor = "tap-preferred";
 };*/
 
+ combos {
+        compatible = "zmk,combos";
+        combo_base {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&to BASE>;
+        };
+		 combo_zahlen {
+            timeout-ms = <50>;
+            key-positions = <9 10>;
+            bindings = <&to ZAHLEN>;
+        };
+		 combo_zeichen {
+            timeout-ms = <50>;
+            key-positions = <10 11>
+			bindings = <&to ZEICHEN>;
+        };
+		 combo_programme {
+            timeout-ms = <50>;
+            key-positions = <8 11>;
+            bindings = <&to PROGRAME>;
+        };
+    };
 
 
 / {
