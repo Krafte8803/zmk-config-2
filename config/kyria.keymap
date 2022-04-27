@@ -61,16 +61,23 @@
                         flavor = "hold-preferred";      
                         bindings = <&kp>, <&kp>;
         };
-		 td0: tap_dance_0 {
+		td0: tap_dance_0 {
            				compatible = "zmk,behavior-tap-dance";
             			label = "TAP_DANCE_0";
             			#binding-cells = <0>;
             			tapping-term-ms = <200>;
-            			bindings = <&kp DE_MINS>, <&kp DE_UNDS>, <&kp DE_QUOT>;
-        };
+            			bindings = <&kp DE_DOT>, <&kp DE_COMM>, <&kp DE_COLN>;
+        }; 
 		td1: tap_dance_0 {
            				compatible = "zmk,behavior-tap-dance";
-            			label = "TAP_DANCE_0";
+            			label = "TAP_DANCE_1";
+            			#binding-cells = <0>;
+            			tapping-term-ms = <200>;
+            			bindings = <&kp DE_MINS>, <&kp DE_UNDS>, <&kp DE_QUOT>;
+        };
+		td2: tap_dance_0 {
+           				compatible = "zmk,behavior-tap-dance";
+            			label = "TAP_DANCE_2";
             			#binding-cells = <0>;
             			tapping-term-ms = <200>;
             			bindings = <&kp DE_SCLN>, <&kp DE_COLN>, <&kp DE_HASH>;
