@@ -66,7 +66,14 @@
             			label = "TAP_DANCE_0";
             			#binding-cells = <0>;
             			tapping-term-ms = <200>;
-            			bindings = <&kp DE_DOT>, <&kp DE_COMM>, <&kp DE_COLN>;
+            			bindings = <&kp DE_MINS>, <&kp DE_UNDS>, <&kp DE_QUOT>;
+        };
+		td1: tap_dance_0 {
+           				compatible = "zmk,behavior-tap-dance";
+            			label = "TAP_DANCE_0";
+            			#binding-cells = <0>;
+            			tapping-term-ms = <200>;
+            			bindings = <&kp DE_SCLN>, <&kp DE_COLN>, <&kp DE_HASH>;
         };
     };
 
